@@ -1,0 +1,154 @@
+.head_box{
+    font-size:larger;
+    font-style: oblique;
+    text-decoration-color: white;
+    background-color: rgba(97, 78, 141, 0.193);
+}
+body{
+    background-image: url("123.avif");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%; 
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.second_box{
+    background-color: rgb(243, 238, 244);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+marquee{
+    font-family: sans-serif;
+    background-color: bisque;
+    color:#000;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 98%;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 30px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr 1fr;
+    grid-gap: 10px;
+}
+#grid >div{
+    font-size: 15px;
+    padding: 5em;
+}
+#login{
+    height: 350px;
+    width: 85%;
+    margin-top: 70px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border: 1px #fff;
+    border-style: double;
+
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid c;
+    padding: 6px 24px;
+    font-size: 17px;
+    margin-top: 10px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 17px;
+    transition: 0.6s ease;z
+}
+button:hover{
+    color:blueviolet;
+    background-color: azure;
+}
+#news{
+    margin-top: 30px;
+    height: 530px;
+    background-color:rgba(31, 122, 132, 0.418);
+    padding: 10px;
+
+}
+#news section{
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 5px;
+    gap: 10px;
+}
+#news section a, button a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.663);
+}
+hr{
+    size: 2px;
+    color:#000;
+}
+#third_div{
+    margin: 0;
+    height: 400px;
+    width: 90%;
+}
+#quick_links{
+    padding: 15px; 
+    margin-top: 10px;
+    height: 240px;
+    background-color:rgba(167, 225, 95, 0.156);
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color:darkslateblue;
+    color: #fff;
+}
+#tax_cal{
+    width: 80%;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+}
+#tax_cal a{
+    margin-left:0;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: darkgrey;
+}
+section{
+    border: 1px solid black;
+}
+footer div p{
+    margin-right: 0;
+    margin-left: 700px;
+}
+#gif{
+    margin-top: 30px;
+    border:thick;
+   
+}
